@@ -101,9 +101,13 @@ const sections = [
                   <span class="font-medium text-gray-900" data-i18n-key="achievements.developers">Developers:</span> {software.data.developers.join(', ')}
                 </div>
                 <div class="flex items-center justify-between pt-2 border-t border-gray-50">
-                  <a href={software.data.link} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-blue-600 hover:text-blue-700 text-xs font-medium hover:underline">
-                    View Software →
-                  </a>
+                  {software.data.link && (software.data.link.startsWith('http://') || software.data.link.startsWith('https://')) ? (
+                    <a href={software.data.link} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-blue-600 hover:text-blue-700 text-xs font-medium hover:underline" data-i18n-key="achievements.viewSoftware">
+                      View Software →
+                    </a>
+                  ) : (
+                    <span class="text-xs text-gray-400">No link available</span>
+                  )}
                   <time class="text-gray-400">{software.data.date.toLocaleDateString()}</time>
                 </div>
               </div>
