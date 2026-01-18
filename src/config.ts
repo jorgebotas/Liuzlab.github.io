@@ -11,16 +11,16 @@ export const SITE = {
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   
   // Lab Info
-  labName: 'Scholar-Lite Lab',
-  university: 'University Name',
+  labName: 'Liu Lab',
+  university: 'Baylor College of Medicine',
   logo: '/assets/logo-real.svg', // Logo path
   avatar: '/assets/logo-real.svg', // Avatar for SEO/Schema
   email: 'contact@lab.edu', // Contact email for Join Us page
 
   // Hero Section (Home Page) - Main content does not need to be translated for 8 languages by default
   hero: {
-    title: 'Advancing Computer Vision & Deep Learning Research.',
-    subtitle: 'We are the Scholar-Lite Lab.',
+    title: 'Pioneering AI-Driven Genomics & Rare Disease Diagnostics',
+    subtitle: 'We are the Liu Lab.',
     action: 'View Publications', // Optional call to action text
     image: heroImage, // Hero image path
   },
