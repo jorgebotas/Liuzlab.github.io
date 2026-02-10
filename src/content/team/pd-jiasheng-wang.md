@@ -7,4 +7,5 @@ bio: "Developing computational methods and scalable pipelines for integrative ge
 email: "jiashenw@bcm.edu"
 linkedin: "https://www.linkedin.com/in/jiasheng-wang0311/"
 github: "https://github.com/Jiasheng-Wang"
+weight: 20
 ---
