@@ -2,7 +2,7 @@
 name: "Christopher Yates"
 role: "PhD Student"
 title: ["PhD Student"]
-avatar: "../../assets/phd-Chris-Yates.jpg"
+avatar: "../../assets/phd-Chris-Yates.png"
 bio: "PhD student specializing in AI and machine learning. I develop AI-powered multi-omic genetic differential diagnostic models capable of diagnosing rare diseases with high precision, LLM frameworks to synthesize knowledge in tables and text into knowledge graphs, and statistical methods to understand the genomic and metabolomic interactions in neurodegenerative diseases."
 email: "Christopher.Yates@bcm.edu"
 linkedin: "https://www.linkedin.com/in/chris-j-yates/"
